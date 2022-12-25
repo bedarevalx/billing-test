@@ -1,0 +1,70 @@
+.card-img-top {
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+}
+.table-sm td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    max-width: 0;
+}
+
+@media (min-width: 0px) {
+    .card-img-top{
+        height: 12rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .p-md-6 {
+        padding: 6rem !important;
+    }
+    .card-img-top{
+        height: 8rem;
+    }
+}
+@media (min-width: 992px){
+    .px-lg-10{
+        padding-left: 10rem !important;
+        padding-right: 10rem !important;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .p-xl-8{
+        padding: 8rem !important;
+    }
+    .py-xl-7{
+        padding-top: 7rem !important;
+        padding-bottom: 7rem !important;
+
+    }
+    .px-xl-20{
+        padding-left: 20rem !important;
+        padding-right: 20rem !important;
+    }
+}
+
+@media (min-width: 1400px){
+    .p-xxl-10{
+        padding: 10rem !important;
+
+    }
+    .py-xxl-7{
+        padding-top: 7rem !important;
+        padding-bottom: 7rem !important;
+
+    }
+    .px-xxl-20{
+        padding-left: 20rem !important;
+        padding-right: 20rem !important;
+    }
+}
+
+
+
+
+
